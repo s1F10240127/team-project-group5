@@ -1,0 +1,19 @@
+.totorogo {
+  width: 25%;
+  height: 30%;
+}
+
+.satumeihouse {
+  width: 45%;
+  height: 45%;
+}
+
+.container {
+  width: 70%;
+  height: 100%;
+  background-color: white;
+}
+
+.background {
+  background-color: gray;
+}
