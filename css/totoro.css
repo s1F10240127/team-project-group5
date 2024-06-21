@@ -1,13 +1,12 @@
-.totorogo {
+.pictures {
   margin-left: 5px;
   margin-top: 7px;
   width: 150px;
   height: 40px;
 }
 
-.satumeihouse {
+img {
   padding-right: 5%;
-  margin-left: 1%;
   width: 45%;
   height: 45%;
   box-shadow: 10px;
@@ -15,8 +14,8 @@
 
 .container {
   overflow: auto;
-  padding: 0% 3% 0% 3%;
-  margin: 50px 5% 0% 5%;
+  padding: 0% 5% 0% 5%;
+  margin: 50px 5% 0% 50px;
   display: inline;
   width: 90%;
   height: 100%;
@@ -25,8 +24,7 @@
 
 .background {
   display: flex;
-  box-sizing: border-box;
-  background-color: #f6f7fb;
+  background-color: #8ba42568;
 }
 
 body {
@@ -39,13 +37,12 @@ body {
   position: fixed; /* ヘッダーを固定する */
   top: 0; /* 上部から配置の基準位置を決める */
   left: 0; /* 左から配置の基準位置を決める */
-  width: 2000px; /* ヘッダーの横幅を指定する */
+  width: 100%; /* ヘッダーの横幅を指定する */
   height: 60px; /* ヘッダーの高さを指定す%る */
   padding: 0%; /* ヘッダーの余白を指定する(上下左右) */
-  background-color: white;
-  box-sizing: border-box; /* ヘッダーの背景色を指定する */
-  border: solid 2px;
-  border-color: #f6f7fbf2;
+  background-color: white; /* ヘッダーの背景色を指定する */
+  border-bottom: solid 1px;
+  border-color: gray;
 }
 
 .summary {
@@ -54,8 +51,44 @@ body {
   display: flex;
 }
 
-.summaryText {
+p {
   font-size: 2vh;
   font-size: 2vw;
   font-weight: 570;
+}
+
+.recommend {
+  overflow: wrap;
+  display: block;
+  font-size: 30;
+  display: flex;
+}
+
+.introduce {
+  padding: 5% 5% 5% 5%;
+  overflow: visible;
+  display: flex;
+  margin-top: 5%;
+  width: 100%;
+  height: 500px;
+  background-color: #74797575;
+}
+
+.member {
+  max-width: 640px;
+  width: 25%;
+  height: 10%;
+  box-sizing: border-box;
+}
+
+.outline {
+  overflow: wrap;
+  display: flex;
+  width: 45%;
+  height: 45%;
+}
+
+.p2 {
+  width: 1vh;
+  height: 1vw;
 }
