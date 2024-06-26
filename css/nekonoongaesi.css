@@ -21,3 +21,30 @@ h1{
 body{
     background: linear-gradient(#a4d9d9,#a8b4f1);  
 }
+
+.photo-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.photo-left, .photo-right {
+    flex: 1;
+}
+
+.photo-left img, .photo-right img {
+    width: 100%;
+    height: auto;
+}
+
+.text-center {
+    flex: 2;
+    padding: 20px;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
