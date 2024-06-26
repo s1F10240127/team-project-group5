@@ -17,3 +17,7 @@
 h1{
     color: blue;
 }
+
+body{
+    background: linear-gradient(#a4d9d9,#a8b4f1);  
+}
