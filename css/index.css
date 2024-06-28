@@ -1,8 +1,9 @@
 .image-container {
     display: flex;
-    justify-content: space-around; /* 画像間のスペースを調整 */
+    justify-content: space-around;
 }
-.image-container img {
-    max-width: 30%; /* 画像サイズを調整 */
-    height: auto;
+.img{
+    width: 380px;  /* ここで横幅を設定します */
+    height: 200px; /* ここで高さを設定します */
+    object-fit: cover; /* アスペクト比を保ちながら適切にクロップします */
 }
