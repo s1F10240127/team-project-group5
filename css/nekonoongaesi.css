@@ -18,9 +18,25 @@ h1{
     color: blue;
 }
 
-body{
-    background: linear-gradient(#a4d9d9,#f0f49a);  
+html{
+    background-color: #b6f7f7;
 }
+
+.background{
+    display: flex;
+  background-color: #87c6d268;
+}
+
+.white{
+    overflow: auto;
+  padding: 0% 5% 0% 5%;
+  margin: 0px 5% 0% 50px;
+  display: inline;
+  width: 90%;
+  height: 100%;
+  background-color: white;
+}
+
 
 .photo-text-container {
     display: flex;
@@ -48,3 +64,16 @@ body{
 .right{
     text-align: right;
 }
+
+.header {
+    text-align: left;
+    position: fixed; /* ヘッダーを固定する */
+    top: 0; /* 上部から配置の基準位置を決める */
+    left: 0; /* 左から配置の基準位置を決める */
+    width: 100%; /* ヘッダーの横幅を指定する */
+    height: 60px; /* ヘッダーの高さを指定す%る */
+    padding: 0%; /* ヘッダーの余白を指定する(上下左右) */
+    background-color: white; /* ヘッダーの背景色を指定する */
+    border-bottom: solid 1px;
+    border-color: gray;
+  }
