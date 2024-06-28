@@ -1,0 +1,8 @@
+.image-container {
+    display: flex;
+    justify-content: space-around; /* 画像間のスペースを調整 */
+}
+.image-container img {
+    max-width: 30%; /* 画像サイズを調整 */
+    height: auto;
+}
