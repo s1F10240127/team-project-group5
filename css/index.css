@@ -3,7 +3,31 @@
     justify-content: space-around;
 }
 .img{
-    width: 380px;  /* ここで横幅を設定します */
+    width: 350px;  /* ここで横幅を設定します */
     height: 200px; /* ここで高さを設定します */
     object-fit: cover; /* アスペクト比を保ちながら適切にクロップします */
+}
+
+.kyoutyou1 {
+    font-size: 26px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(159, 226, 238), rgb(248, 246, 142));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kyoutyou2{
+    font-size: 26px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(191, 243, 70), rgb(10, 186, 98));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kyoutyou3{
+    font-size: 26px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(57, 246, 98), rgb(239, 70, 70));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
